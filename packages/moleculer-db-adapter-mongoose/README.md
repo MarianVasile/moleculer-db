@@ -65,6 +65,8 @@ new MongooseAdapter("mongodb://db-server-hostname/my-db", {
 })
 ```
 
+You can pass your own `promiseLibrary` object in the options if you don't want Mongoose to use Bluebird.
+
 # Test
 ```
 $ npm test
